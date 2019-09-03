@@ -5,43 +5,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Register</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1 class="page_name" >Garmin watches</h1>
-        <div class="list">
-            <ul class="menu">
+        <div class="menu">
+            <ul class="list">
                 <li class="item_menu">
-                    <a href="index.html">Главная</a>
+                    <a href="index.html" class="link_menu" >Главная</a>
                 </li>
                 <li class="item_menu">
-                    <a href="catalog.html">Продукты</a>
+                    <a href="catalog.html" class="link_menu">Продукты</a>
                 </li>
                 <li class="item_menu">
-                    <a href="contacts.html">Контакты</a>
+                    <a href="contacts.html" class="link_menu">Контакты</a>
                 </li>
                 <li class="item_menu">
-                    <a href="register.html">Регистрация</a>
+                    <a href="register.html" class="link_menu">Регистрация</a>
                 </li>
             </ul>
         </div>
+        <h1 class="page_name" >Garmin watches</h1>
         <hr>
-        <h1 class="title_page">Регистрация пользователя</h1>
-        <form action="#">
-            <fieldset>
+        <h2 class="title_page">Регистрация пользователя:</h2>
+        <form action="#" >
+            <fieldset class="register_form">
                 <legend>
                     <p>Заполните анкету</p>
                 </legend>
-                Ваше имя <input type="text" placeholder="Ваше имя"><br>
-                Пароль <input type="password" placeholder="Пароль"><br>
-                Ваш пол<br>
-                    М <input type="radio" name="sex" checked>
-                    Ж <input type="radio" name="sex"><br>
-                Ваши увлечения<br>
-                    Спорт<input type="checkbox" name="" id=""><br>
-                    IT<input type="checkbox" name="" id=""><br>
-                    Музыка<input type="checkbox" name="" id=""><br>
-                    Кино<input type="checkbox" name="" id=""><br>
-                <input type="submit" value="Отправить данные">
+                <label></label>
+                Ваше имя <input type="text" placeholder="Василий"><br>
+                Электронная почта <input type="text" placeholder="Ivanov@mail.ru"><br>
+                Пароль <input type="password" ><br>
+                Повторите пароль <input type="password" ><br>
+                <input type="submit" value="Зарегестрироваться">
                 <input type="reset" value="Отмена">
             </fieldset>
         </form>
