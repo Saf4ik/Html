@@ -1,0 +1,118 @@
+/* ОБЩЕЕ */
+
+body {
+    background: #f8f8f8;
+    width: 1200px;
+    margin-left: 300px;
+}
+
+.page_name {
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+/* МЕНЮ */
+
+.list {
+    list-style-type: none;
+    /* outline: 2px solid black; */
+
+}
+
+.link_menu {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item_menu {
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-start-end-radius: 8px;
+    background-color: rgb(175, 174, 174);
+}
+
+/* КАТАЛОГ */
+
+.product_list {
+    list-style-type: none;
+}
+
+/* ТОВАР */
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detail_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.features {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 300;
+    list-style-image: url(../images/gear.png)
+
+}
+
+.list-features {
+    list-style-type: none;
+}
+
+.product_image {
+    outline: #707070 solid 1px;
+}
+
+/* КОНТАКТЫ */
+
+
+
+
+/* РЕГИСТРАЦИЯ */
+
+
+
+/* ФОРМЫ */
+
+input {
+	width: 300px;
+	font-size: 13px;
+    padding: 6px 0 4px 10px;
+    margin: 2px 2px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+    border-radius: 8px;
+}
+
+
+
+input[type=text],
+input[type=password] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+textarea {
+    background: #f6f6f6;
+	border: 1px solid #cecece;
+	border-radius: 8px 0 0 0;
+	padding: 8px 0 8px 10px;
+}
